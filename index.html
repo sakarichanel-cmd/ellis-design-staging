@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ellis Design | Real Estate Staging & Interior Styling</title>
+  <meta name="description" content="Strategic home staging and interior styling that helps listings sell faster and for top dollar.">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            stone: {
+              50: '#FAF9F6',
+              100: '#F3F1EC',
+              800: '#292724',
+              900: '#1C1B19',
+            },
+            bronze: {
+              600: '#9A7B56',
+              700: '#7D6242',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-stone-50 text-stone-900 font-sans antialiased selection:bg-bronze-600 selection:text-white">
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 bg-stone-50/95 backdrop-blur-md border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="block">
+        <span class="font-serif text-2xl md:text-3xl tracking-widest font-semibold block leading-none">ELLIS DESIGN</span>
+        <span class="text-[10px] tracking-[0.25em] uppercase text-stone-500 block mt-1">Real Estate Staging & Decor</span>
+      </a>
+      
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-stone-700">
+        <a href="#transformations" class="hover:text-bronze-600 transition">Before & After</a>
+        <a href="#services" class="hover:text-bronze-600 transition">Services</a>
+        <a href="#portfolio" class="hover:text-bronze-600 transition">Portfolio</a>
+        <a href="#testimonials" class="hover:text-bronze-600 transition">Testimonials</a>
+        <a href="#faq" class="hover:text-bronze-600 transition">FAQ</a>
+      </nav>
+
+      <a href="#quote" class="bg-stone-900 hover:bg-bronze-600 text-white text-sm font-medium px-5 py-2.5 rounded transition duration-200">
+        Request a Quote
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden py-16 md:py-24 lg:py-28 border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-6 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-200/70 text-stone-800 text-xs font-semibold tracking-wide uppercase">
+          <span>Fast 48-Hour Turnaround Available</span>
+        </div>
+        <h1 class="font-serif text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1.08] text-stone-900">
+          Turn Listings Into <span class="italic font-normal text-bronze-600">Bidding Wars.</span>
+        </h1>
+        <p class="text-lg text-stone-600 leading-relaxed max-w-xl">
+          We transform vacant and lived-in properties into aspirational, buyer-ready homes that photograph beautifully, sell faster, and command higher offers.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 pt-2">
+          <a href="#quote" class="bg-stone-900 hover:bg-bronze-600 text-white text-center font-medium px-8 py-4 rounded transition duration-200 shadow-sm">
+            Get a Free Staging Estimate
+          </a>
+          <a href="#transformations" class="border border-stone-300 hover:border-stone-900 text-stone-900 text-center font-medium px-8 py-4 rounded transition duration-200">
+            See Transformations
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6">
+        <div class="relative rounded-lg overflow-hidden shadow-2xl aspect-[4/3] bg-stone-200">
+          <!-- Replace src with his best wide living room photo -->
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85" 
+               alt="Staged modern living room by Ellis Design" 
+               class="w-full h-full object-cover">
+          <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur px-5 py-3 rounded shadow flex items-center justify-between text-xs sm:text-sm">
+            <span class="font-semibold text-stone-900">Featured Vacant Staging</span>
+            <span class="text-bronze-700 font-medium">Multiple Offers in 5 Days</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROI / Realtor Proof Bar -->
+  <section class="bg-stone-900 text-stone-50 py-12">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-stone-800">
+      <div class="pt-4 md:pt-0">
+        <p class="font-serif text-4xl md:text-5xl text-bronze-600 font-semibold">+5% to 10%</p>
+        <p class="text-sm text-stone-300 mt-2">Average increase in offer price for professionally staged listings*</p>
+      </div>
+      <div class="pt-6 md:pt-0">
+        <p class="font-serif text-4xl md:text-5xl text-bronze-600 font-semibold">73% Faster</p>
+        <p class="text-sm text-stone-300 mt-2">Staged homes spend significantly less time on market than unstaged peers</p>
+      </div>
+      <div class="pt-6 md:pt-0">
+        <p class="font-serif text-4xl md:text-5xl text-bronze-600 font-semibold">48 Hours</p>
+        <p class="text-sm text-stone-300 mt-2">Rapid quote-to-install scheduling for busy listing agents</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Before & After Slider -->
+  <section id="transformations" class="py-20 max-w-7xl mx-auto px-6">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-xs font-bold uppercase tracking-widest text-bronze-600">The Ellis Difference</span>
+      <h2 class="font-serif text-4xl md:text-5xl font-semibold mt-2">See the Transformation</h2>
+      <p class="text-stone-600 mt-3">Drag the slider to see how strategic furniture scale, lighting, and warm styling turn cold empty rooms into emotional buyer magnets.</p>
+    </div>
+
+    <div class="max-w-4xl mx-auto">
+      <div id="ba-container" class="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-xl select-none bg-stone-200">
+        <!-- AFTER IMAGE (Bottom Layer) -->
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80" 
+             alt="After Staging" 
+             class="absolute inset-0 w-full h-full object-cover pointer-events-none">
+        <span class="absolute top-4 right-4 bg-stone-900/80 text-white text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded">After Staging</span>
+
+        <!-- BEFORE IMAGE (Clipped Top Layer) -->
+        <div id="before-layer" class="absolute inset-0 w-full h-full overflow-hidden" style="clip-path: inset(0 50% 0 0);">
+          <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1400&q=80" 
+               alt="Before Staging" 
+               class="absolute inset-0 w-full h-full object-cover filter grayscale contrast-75 pointer-events-none">
+          <span class="absolute top-4 left-4 bg-white/90 text-stone-900 text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded">Before (Vacant)</span>
+        </div>
+
+        <!-- Slider Divider Line -->
+        <div id="slider-line" class="absolute top-0 bottom-0 left-1/2 w-1 bg-white shadow-[0_0_10px_rgba(0,0,0,0.5)] pointer-events-none -translate-x-1/2">
+          <div class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 bg-white text-stone-900 rounded-full shadow-lg flex items-center justify-center font-bold text-xs">
+            &#8596;
+          </div>
+        </div>
+
+        <!-- Invisible Range Input for Touch & Mouse Accessibility -->
+        <input type="range" min="0" max="100" value="50" id="ba-slider" aria-label="Before and after image slider"
+               class="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-20">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Breakdown -->
+  <section id="services" class="py-20 bg-stone-100 border-y border-stone-200">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold uppercase tracking-widest text-bronze-600">Tailored Packages</span>
+        <h2 class="font-serif text-4xl md:text-5xl font-semibold mt-2">Staging & Styling Services</h2>
+        <p class="text-stone-600 mt-3">Flexible solutions built for listing agents, homeowners, and property investors.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-stone-200/80 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-bronze-600">Most Popular for Realtors</span>
+            <h3 class="font-serif text-3xl font-semibold mt-2">Vacant Home Staging</h3>
+            <p class="text-stone-600 text-sm mt-3 leading-relaxed">
+              Complete furnishings, artwork, rugs, and curated accessories for empty properties. We highlight architectural flow and make spaces feel larger and brighter for listing photos.
+            </p>
+            <ul class="mt-6 space-y-2.5 text-sm text-stone-700">
+              <li>&#10003; Custom furniture selection per listing</li>
+              <li>&#10003; Key impact rooms (Living, Dining, Primary, Kitchen)</li>
+              <li>&#10003; White-glove delivery, setup & destaging</li>
+            </ul>
+          </div>
+          <a href="#quote" class="mt-8 block text-center bg-stone-900 hover:bg-bronze-600 text-white text-sm font-medium py-3 rounded transition">Request Vacant Quote</a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-stone-200/80 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-bronze-600">Best for Homeowners</span>
+            <h3 class="font-serif text-3xl font-semibold mt-2">Occupied Staging & Consults</h3>
+            <p class="text-stone-600 text-sm mt-3 leading-relaxed">
+              Selling while living in the home? We re-envision your existing layout, edit clutter, and supplement with our curated decor, textiles, and lighting to maximize appeal on a budget.
+            </p>
+            <ul class="mt-6 space-y-2.5 text-sm text-stone-700">
+              <li>&#10003; Room-by-room Walk & Talk action plan</li>
+              <li>&#10003; Furniture layout & traffic flow optimization</li>
+              <li>&#10003; Optional accessory, art & bedding rental</li>
+            </ul>
+          </div>
+          <a href="#quote" class="mt-8 block text-center border border-stone-900 hover:bg-stone-900 hover:text-white text-stone-900 text-sm font-medium py-3 rounded transition">Book a Consultation</a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-stone-200/80 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-bronze-600">Turnkey Styling</span>
+            <h3 class="font-serif text-3xl font-semibold mt-2">Home Decor & Short-Term Rentals</h3>
+            <p class="text-stone-600 text-sm mt-3 leading-relaxed">
+              Moving into a new home or launching an Airbnb/VRBO? We source, purchase, and style everything down to the throw pillows so your space stands out immediately.
+            </p>
+            <ul class="mt-6 space-y-2.5 text-sm text-stone-700">
+              <li>&#10003; Moodboards & cohesive color palettes</li>
+              <li>&#10003; Trade-discount furniture sourcing</li>
+              <li>&#10003; Photo-ready installation for Airbnb hosts</li>
+            </ul>
+          </div>
+          <a href="#quote" class="mt-8 block text-center border border-stone-900 hover:bg-stone-900 hover:text-white text-stone-900 text-sm font-medium py-3 rounded transition">Inquire About Styling</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Portfolio Grid -->
+  <section id="portfolio" class="py-20 max-w-7xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-widest text-bronze-600">Curated Work</span>
+        <h2 class="font-serif text-4xl md:text-5xl font-semibold mt-2">Recent Staging Projects</h2>
+      </div>
+      <p class="text-stone-600 text-sm max-w-md mt-3 md:mt-0">
+        Swap these placeholders with the 6 brightest, widest interior shots from his current Wix gallery (skip the brick/stone texture files).
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="group relative aspect-[4/3] rounded-lg overflow-hidden bg-stone-200">
+        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80" alt="Vaulted Ceiling Living Room" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-5">
+          <p class="text-white font-medium text-sm">Vaulted Great Room &mdash; Vacant Staging</p>
+        </div>
+      </div>
+      <div class="group relative aspect-[4/3] rounded-lg overflow-hidden bg-stone-200">
+        <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=900&q=80" alt="Modern Kitchen Staging" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-5">
+          <p class="text-white font-medium text-sm">Chef's Kitchen &mdash; Model Home Styling</p>
+        </div>
+      </div>
+      <div class="group relative aspect-[4/3] rounded-lg overflow-hidden bg-stone-200">
+        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=900&q=80" alt="Primary Suite Staging" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-5">
+          <p class="text-white font-medium text-sm">Primary Bedroom Suite &mdash; Sold Over Ask</p
